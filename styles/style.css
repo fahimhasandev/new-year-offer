@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Banner Section Starts here */
+.banner-container {
+  max-width: 1320px;
+  min-height: 600px;
+  margin: 0 auto;
+  /* border: 2px solid black; */
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url(/images/Banner-Image.png);
+  margin-top: 20px;
+  border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+.banner-content {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content p,
+h1 {
+  color: #fff;
+}
+
+.banner-content p {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.banner-content h1 {
+  font-size: 72px;
+  text-align: center;
+  font-weight: 900;
+}
+
+/* 65% container starts here */
+.second-section-container {
+  width: 802.9px;
+  height: 806px;
+  border: 2px solid red;
+  margin: 0 auto;
+  margin-top: 90px;
+}
