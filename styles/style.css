@@ -117,6 +117,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
 
+  padding-left: 40px;
   /* align-items: center; */
 }
 .leftside-content h2 {
@@ -129,10 +130,11 @@ h1 {
 .leftside-content p {
   margin-bottom: 20px;
   font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
 }
 .leftside-content span {
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 40px;
 }
 .rightside-content {
   width: 50%;
