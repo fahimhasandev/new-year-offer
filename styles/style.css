@@ -62,6 +62,11 @@ h1 {
   font-family: Intern, Arial, Helvetica, sans-serif;
   font-size: 88px;
   font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.second-section-container .inner-content {
+  margin-bottom: 48px;
 }
 .second-section-container p {
   color: rgb(255, 0, 0);
@@ -79,8 +84,68 @@ h1 {
 .second-section-image {
   width: 802.9px;
   height: 500px;
+  padding: 0;
+  margin: 0;
 }
 .second-section-image img {
   width: 100%;
-  height: 1005;
+  height: 100%;
 }
+
+/* midnight section start here*/
+.midnight-party-container {
+  max-width: 1320px;
+  height: 600px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(/images/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 80px;
+  object-fit: contain;
+  display: flex;
+  background-blend-mode: overlay;
+}
+.leftside-content {
+  width: 50%;
+  height: 600px;
+  /* border: 2px solid green; */
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+
+  /* align-items: center; */
+}
+.leftside-content h2 {
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 64px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.leftside-content p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.leftside-content span {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.rightside-content {
+  width: 50%;
+  height: 600px;
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightside-content img {
+  width: 319.83px;
+  height: 464.66px;
+  /* border: 2px solid red; */
+  margin: 68px 140px;
+}
+/* midnight section end here*/
