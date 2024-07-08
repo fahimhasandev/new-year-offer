@@ -44,9 +44,43 @@ h1 {
 
 /* 65% container starts here */
 .second-section-container {
-  width: 802.9px;
+  max-width: 802.9px;
   height: 806px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 0 auto;
   margin-top: 90px;
+}
+.second-section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-section-container h1 {
+  color: rgb(255, 0, 0);
+  font-family: Intern, Arial, Helvetica, sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+}
+.second-section-container p {
+  color: rgb(255, 0, 0);
+  font-family: Intern, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.second-section-container h3 {
+  color: rgb(0, 0, 0);
+  font-family: Intern, Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.second-section-image {
+  width: 802.9px;
+  height: 500px;
+}
+.second-section-image img {
+  width: 100%;
+  height: 1005;
 }
