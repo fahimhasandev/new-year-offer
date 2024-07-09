@@ -163,6 +163,7 @@ h1 {
   position: relative;
 }
 .holiday-text-container {
+  border: 2px solid rgb(0, 255, 38);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -185,9 +186,6 @@ h1 {
   letter-spacing: 0%;
   text-align: center;
 }
-.holiday-text-container .holiday {
-  color: rgb(255, 0, 0);
-}
 
 .holiday-text-container p {
   color: rgb(7, 2, 17, 0.6);
@@ -195,22 +193,38 @@ h1 {
   font-size: 20px;
   font-weight: 500;
 }
-.solid-color {
-  max-width: 1320px;
-  height: 229px;
-  background-color: #ff0000;
+
+.holiday-text-container .holiday {
+  color: rgb(255, 0, 0);
+}
+
+.holiday-section-container .solid-color {
   position: absolute;
+  width: 1320px;
+  height: 229px;
+  background: #ff0000;
+  top: 77%;
 }
-/* .holiday-image-section {
-  height: 662px;
-  border: 2px solid rgb(114, 250, 155);
-  background: url(/images/Rectangle-2.png), url(/images/Group-75.png);
-  background-repeat: no-repeat;
-  background-position: right bottom, left bottom;
+
+.giftbox {
+  width: 674.82px;
+  height: 577.96px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.left-image {
-  display: block;
-  z-index: 99;
+/* .giftbox img {
+  width: ;
 } */
+
+.girl-container {
+  width: 305px;
+  height: 305px;
+  position: relative;
+  left: 29%;
+  top: 11%;
+}
 
 /* Holiday Section end here */
