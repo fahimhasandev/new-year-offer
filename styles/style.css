@@ -151,3 +151,66 @@ h1 {
   margin: 68px 140px;
 }
 /* midnight section end here*/
+
+/* Holiday Section start here */
+
+.holiday-section-container {
+  width: 1320px;
+  height: 986px;
+  border: 2px solid red;
+  margin: 0 auto;
+  margin-top: 100px;
+  position: relative;
+}
+.holiday-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1068px;
+  height: 260px;
+  margin: 0 auto;
+}
+.holiday-text-container h5 {
+  color: rgb(7, 2, 17);
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday-text-container h2 {
+  font-family: Merriweather, Arial, Helvetica, sans-serif;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.holiday-text-container .holiday {
+  color: rgb(255, 0, 0);
+}
+
+.holiday-text-container p {
+  color: rgb(7, 2, 17, 0.6);
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.solid-color {
+  max-width: 1320px;
+  height: 229px;
+  background-color: #ff0000;
+  position: absolute;
+}
+/* .holiday-image-section {
+  height: 662px;
+  border: 2px solid rgb(114, 250, 155);
+  background: url(/images/Rectangle-2.png), url(/images/Group-75.png);
+  background-repeat: no-repeat;
+  background-position: right bottom, left bottom;
+}
+.left-image {
+  display: block;
+  z-index: 99;
+} */
+
+/* Holiday Section end here */
